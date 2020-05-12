@@ -33,3 +33,8 @@ For instance, you can set like tag=0.0.4 in the following command.
 ```
 $ ./bin/build-and-push-image $tag
 ```
+How to build rich text
+1.Postモデルにhas_rich_text :content
+2.Strong Parameterを:content設定
+3.Viewに<%= form.rich_text_area :title %>
+4.
